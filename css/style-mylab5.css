@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    font-family: Arial;
+}
+/*header*/
+header {
+    width: 100%;
+    height: 100px;
+    background: black;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+}
+/*navigation*/
+nav {
+    padding-top: 27px;
+    float: left;
+    height: 500px;
+    width: 20%;
+    background: hsla(0, 4%, 73%, 0.44);
+}
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+}
+nav ul {
+    list-style-type: none;
+}
+/*main*/
+main {
+    float: left;
+    height: 500px;
+    width: 78%;
+    padding-left: 2%;
+    margin-top: 2%;
+}
+main img {
+    width: 150px;
+    height: 150px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+}
+.my-info-left {
+    float: left;
+    padding:2% 0;
+    width: 30%;
+    background: rgba(22, 189, 226, 0.15);
+    text-align: center;
+    height: 72%;
+    box-shadow: 5px 5px 5px #666;
+    -moz-box-shadow: 5px 5px 5px #666;
+    -webkit-box-shadow: 5px 5px 5px #666;
+}
+.my-info-right {
+    line-height: 1.5;
+    float: right;
+    margin: 0 2%;
+    padding:2% 2%;
+    width: 62%;
+    background: rgba(22, 189, 226, 0.15);
+    text-align: left;
+    height: 72%;
+    box-shadow: 5px 5px 5px #666;
+    -moz-box-shadow: 5px 5px 5px #666;
+    -webkit-box-shadow: 5px 5px 5px #666;
+}
+dl {
+    /*border: 3px double #ccc;*/
+    padding: 0.5em;
+}
+dt {
+    float: left;
+    clear: left;
+    width: 40%;
+    text-align: left;
+    font-weight: bold;
+    color: green;
+}
+dt::after {
+    content: ":";
+}
+dd {
+    text-align: left;
+    margin: 0 0 0 130px;
+    padding: 0 0 0.5em 0;
+}
+/*social network icon*/
+.social-network-icon {
+    padding:15px 0;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+.fa{
+    width: 60px;
+    height: 42px;
+    border-radius: 50px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial;
+    display: inline-block;
+    padding-top: 17px;
+}
+.fa:hover{
+    opacity: 0.7;
+}
+.fa-facebook{
+    background: #395999;
+}
+.fa-twitter{
+    background: #55ADEF;
+}
+.fa-google{
+    background: #DE4A37;
+}
+.fa-linkedin{
+    background: #007CB6;
+}
+.fa-skype{
+    background: #00B0F1;
+}
+.fa-pinterest{
+    background: #CC1A22;
+}
+/*footer*/
+footer {
+    clear: both;
+    height: 30px;
+    background: black;
+    color: #fff;
+    text-align: center;
+    padding-top: 15px;
+}
