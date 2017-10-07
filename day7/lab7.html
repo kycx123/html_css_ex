@@ -117,7 +117,18 @@
     </article>
 
 </main>
-<a href="#"><span id="scroll-to-top"><i class="fa fa-arrow-circle-o-up" aria-hidden="true"></i> Scroll To Top</span></a>
+<a onclick="return TopscrollTo()"><span id="scroll-to-top"><i class="fa fa-arrow-circle-o-up" aria-hidden="true"></i> Scroll To Top</span></a>
+<script>
+    function scrollToTop() {
+        if(window.scrollY!=0)
+        {
+            setTimeout(function() {
+                window.scrollTo(0,window.scrollY-30);
+                scrollToTop();
+            }, 10);
+        }
+    }
+</script>
 <footer>
     Copyright © 2017 Akaseto
 </footer>
